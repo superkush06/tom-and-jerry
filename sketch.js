@@ -23,7 +23,7 @@ function setup(){
 function draw() {
     background("bgImg", bgImg);
     keyPressed();
-    if(cat.x - mouse.x < (cat.width - mouse.width) / 2) {
+    if(tom.x - jerry.x < (tom.width - jerry.width) / 2) {
         tom.velocityX = 0;
         tom.addImage("happy_tom",tom3);
         tom.changeImage("happy_tom");
